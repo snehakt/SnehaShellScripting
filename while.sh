@@ -1,7 +1,7 @@
 read -p "enter number : " n
-while [ $n -le 20 ]
+while [ $n -le $n ]
 do
-echo $n;
+echo $i;
 ((n++))
 done
 
